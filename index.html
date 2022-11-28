@@ -106,8 +106,8 @@
 	let myPic = " ";
 	let myYear = myDate.getFullYear();
 
-	const daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-	let myDay = daysOfWeek[myDate.getDay() - 1];
+	const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+	let myDay = daysOfWeek[myDate.getDay()];
 
 	if(myHour >= 12 && myHour < 18)
 	{
